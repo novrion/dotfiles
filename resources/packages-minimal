@@ -1,6 +1,8 @@
+git
 vim
 bspwm
 sxhkd
+dmenu
 xorg
 xorg-xinit
 nvidia
@@ -12,3 +14,4 @@ pavucontrol
 feh
 mpv
 firefox
+ranger

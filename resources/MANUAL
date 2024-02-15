@@ -1,0 +1,8 @@
+# ---------- Novrion's Arch Linux Manual ----------
+
+# Aliases
+dest = destination
+
+[FILE COMPRESSION]
+tar -xf path (extract)
+tar -czf dest path (compress)

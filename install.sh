@@ -1,43 +1,33 @@
+#!/bin/bash
+
 # ----- Install script for Novrion's Arch Linux -----
 
-# TODO Fix arguments
-res="resources"
+minimal=0
 
-# Flags
-whlie getopts "m" flag; do
+while getopts "mh" flag; do
 	case $flag in 
 		m ) # minimal install
-			file="$res/packages-minmal"
-			;;
+			minimal=1 ;;
 		h ) # display help message
-			echo " -m [minimal install]"
-			exit
-			;;
-		\?) echo "invalid argu"... ?????????
-		
-		esac
+			echo "----- Argument List -----"
+			echo "-h [display this message]"
+			echo "-m [minimal install]"
+			echo "-------------------------"
+			exit 1 ;;
+	esac
 done
 
-# Install packages
-if [ "$1" == "--minimal" ]; then
-	file="resources/packages-minimal"
-else
-	file="resources/packages"
+
+./scripts/install-minimal.sh
+
+if [ $minimal == 1 ]; then
+	exit 0
 fi
 
-raw=$(cat $file)
-packages="${raw//$'\n'/ }"
-sudo pacman -S $packages
+./scripts/install-extra.sh
 
-# Copy .config
-cp -r .config/ $XDG_CONFIG_HOME/.config/
 
-# Copy .xinitrc
-cp .xinitrc $XDG_CONFIG_HOME/.xinitrc
-
-# VIM
-cp .vimrc $XDG_CONFIG_HOME/.vimrc
-#sudo cp .vimrc /usr/share/vim/vim91/.vimrc
-# make symbolic link between sudo file and user file ? Unsecure
-# or just use system wide file ? Bad practice if multiple users
-# Or maybe just use different files for root and user. Might be useful.
+echo "============================================="
+echo "==========  Finished Installation  =========="
+echo "============================================="
+exit 0
