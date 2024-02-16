@@ -6,6 +6,7 @@ res="resources"
 file="$res/packages-minimal"
 
 
+# TODO timezone
 # System settings
 sudo cp $res/vconsole.conf /etc/vconsole.conf
 sudo locale-gen
