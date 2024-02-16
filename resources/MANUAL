@@ -1,8 +1,46 @@
 # ---------- Novrion's Arch Linux Manual ----------
 
+
 # Aliases
 dest = destination
+part = partition
+f = file
+
+
+[SHORTCUTS]
+terminal (Alacritty): SUPER + RETURN
+run applications (dmenu): SUPER + SPACE
+
+swap workspace: SUPER + (1-8)
+
+- Window -
+tile: SUPER + T
+float: SUPER + S
+monocle: SUPER + M
+fullscreen: SUPER + F
+drag floating: SUPER + LEFT MOUSE
+swap focus: SUPER + H,J,K,L
+swap: SUPER + SHIFT + H,J,K,L / (1-8)
+expand: SUPER + ALT + H,J,K,L
+minimize: SUPER + ALT + SHIFT + H,J,K,L
+
 
 [FILE COMPRESSION]
 tar -xf path (extract)
 tar -czf dest path (compress)
+
+
+[USB]
+lsblk (display partitions)
+sudo mount /dev/part ~/usb
+
+
+[MEDIA]
+mpv f (video)
+feh f (picture)
+feh --bg-fill folder-path (--randomize) (wallpaper)
+
+[GTK]
+customize with lxappearance
+
+
