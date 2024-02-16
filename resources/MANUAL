@@ -10,8 +10,9 @@ f = file
 [SHORTCUTS]
 terminal (Alacritty): SUPER + RETURN
 run applications (dmenu): SUPER + SPACE
-
 swap workspace: SUPER + (1-8)
+reload bspwm: SUPER + ALT + R
+exit bspwm: SUPER + ALT + Q
 
 - Window -
 tile: SUPER + T
@@ -23,6 +24,14 @@ swap focus: SUPER + H,J,K,L
 swap: SUPER + SHIFT + H,J,K,L / (1-8)
 expand: SUPER + ALT + H,J,K,L
 minimize: SUPER + ALT + SHIFT + H,J,K,L
+
+
+[X]
+xset r rate 200 30 (keypress delay and keyhold repeat speed)
+
+
+[KEYBOARD]
+setxkbmap se (Swedish keyboard)
 
 
 [FILE COMPRESSION]

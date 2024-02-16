@@ -34,15 +34,15 @@ opacity = 0.9
 startup_mode = "Maximized"
 
 [font]
-# normal = { family="MxPlus IBM VGA 9x16"", style="Regular" }
-# bold = { family="MxPlus IBM VGA 9x16"", style="Bold" }
-# italic = { family="MxPlus IBM VGA 9x16"", style="Italic" }
-# bold_italic = { family="MxPlus IBM VGA 9x16"", style="Bold Italic" }
-
 normal = { family="hack", style="Regular" }
 bold = { family="hack", style="Bold" }
 italic = { family="hack", style="Italic" }
 bold_italic = { family="hack", style="Bold Italic" }
+
+# normal = { family="MxPlus IBM VGA 9x16"", style="Regular" }
+# bold = { family="MxPlus IBM VGA 9x16"", style="Bold" }
+# italic = { family="MxPlus IBM VGA 9x16"", style="Italic" }
+# bold_italic = { family="MxPlus IBM VGA 9x16"", style="Bold Italic" }
 
 size = 20
 
