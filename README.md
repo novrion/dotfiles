@@ -21,4 +21,4 @@ Images: feh
 Videos: mpv  
 
 Note: keyboard layout can be configured in **resources/vconsole.conf** and **resources/.xinitrc**  
-Note: nvidia utilities are included in minimal install (remove from **resources/packages-minimal**)  
+Note: nvidia utilities are included in minimal installation (remove from **resources/packages-minimal**)  
