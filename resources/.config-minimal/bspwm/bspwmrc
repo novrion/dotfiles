@@ -18,5 +18,5 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a firefox desktop=^5 follow=on focus=on
-bspc rule -a Spotify desktop=^7 follow=on focus=on
-bspc rule -a discord desktop=^8 follow=on focus=on
+bspc rule -a Spotify desktop=^7 follow=on
+bspc rule -a discord desktop=^8 follow=on
