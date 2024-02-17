@@ -31,7 +31,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 
-
+xrandr --output DP-0 --mode 2560x1440 --rate 170 &
 setxkbmap se &
 picom &
 feh --bg-fill ~/media/pictures/wallpapers/ --randomize &
