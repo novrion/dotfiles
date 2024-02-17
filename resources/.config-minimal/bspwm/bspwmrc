@@ -3,11 +3,11 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # Normal Mode
-#bspc monitor DP-0 -d I II III 4 browser
-#bspc monitor DP-2 -d 6 music dc
+bspc monitor DP-0 -d I II III 4 browser
+bspc monitor DP-2 -d 6 music dc
 
 # Game Mode
-bspc monitor DP-0 -d I II III 4 browser 6 music dc
+#bspc monitor DP-0 -d I II III 4 browser 6 music dc
 
 bspc config border_width         1
 bspc config window_gap           10
