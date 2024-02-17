@@ -20,5 +20,8 @@ Audio + Audio Control: pulseaudio + pavucontrol
 Images: feh  
 Videos: mpv  
 
+Mouse Settings: piper  
+
+Note: bspwmrc should be configured to one's own window setup
 Note: keyboard layout can be configured in **resources/vconsole.conf** and **resources/.xinitrc**  
 Note: nvidia utilities are included in minimal installation (remove from **resources/packages-minimal**)  
