@@ -34,7 +34,7 @@ fi
 
 setxkbmap se &
 picom &
-feh --bg-fill ~/pictures/wallpapers --randomize &
+feh --bg-fill ~/media/pictures/wallpapers/ --randomize &
 xset r rate 200 30 &
 sxhkd &
 exec bspwm
