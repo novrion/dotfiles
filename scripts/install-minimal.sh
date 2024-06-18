@@ -24,11 +24,6 @@ mv $res/.config $res/.config-minimal
 # .xinitrc
 sudo cp $res/.xinitrc $HOME/.xinitrc
 
-# vim
-sudo cp $res/.config-minimal/vim/colors/tokyonight.vim /usr/share/vim/vim91/colors/
-cp $res/.vimrc $HOME/.vimrc
-sudo cp $res/vimrc /etc/vimrc
-
 # Fonts
 sudo pacman -S ttf-hack
 
