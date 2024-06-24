@@ -8,10 +8,10 @@ xorg-xinit
 nvidia
 nvidia-utils
 nvidia-settings
-alacritty
+kitty
 pulseaudio
 pavucontrol
 feh
 mpv
 firefox
-ranger
+yazi
