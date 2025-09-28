@@ -1,6 +1,20 @@
-# Novrion's Arch Linux User Install Script
+# Novrion's Dotfiles
+Configuration files for some terminal applications
 
-This is not a full Arch Linux installation. The script configures a fresh user. 
+### Applications Configured
+
+```
+```
+neovim
+ghostty
+btop
+yazi
+```
+```
+
+### Arch Linux User Install Script
+Not a full Arch Linux installation. The script configures a fresh user. 
+Run using ```arch/install.sh``` from ```arch/```
 
 **[ Specifications ]**  
 
