@@ -14,4 +14,4 @@ brew install \
 	lua-language-server \
 	pylsp \
 	tree
-brew install --cask neovim-nightly
+brew install neovim --HEAD 
