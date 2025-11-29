@@ -1,4 +1,4 @@
-export PS1="%B%~$ "
+export PS1="\w$ "
 
 # Start tmux automatically
 if command -v tmux &> /dev/null; then

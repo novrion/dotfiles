@@ -1,6 +1,10 @@
 # Setup
 ```bash
-bash scripts/setup.sh
-```
+# Arch Linux
+bash scripts/setup.sh arch
 
-# Scripts
+# MacOS
+# Required packages:
+#   - Homebrew
+bash scripts/setup.sh macos
+```
