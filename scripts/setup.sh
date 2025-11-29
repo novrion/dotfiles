@@ -36,6 +36,7 @@ if [ "$1" = "arch" ]; then
 	cp -r rofi/ $HOME/.config/
 	cp .bashrc_arch $HOME/.bashrc
 	mv scripts/open-github-arch.sh scripts/open-github.sh
+	cp .xinitrc $HOME/
 
 ########### MacOS ##########
 elif [ "$1" = "macos" ]; then
@@ -48,8 +49,8 @@ fi
 
 
 
-cp -r scripts/ $HOME/.config/
-rm $HOME/.config/scripts/setup.sh
+cp -r scripts/ $HOME/
+rm $HOME/scripts/setup.sh
 
 ./scripts/store-git-credentials.sh
 

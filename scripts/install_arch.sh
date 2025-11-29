@@ -28,6 +28,10 @@ sudo pacman -Sy \
 	uv \
 	ripgrep \
 	lua-language-server \
+	python-lsp-server \
+	python-lsp-black \
+	python-pyflakes \
+	python-pycodestyle \
 	tree-sitter \
 	tree
 
