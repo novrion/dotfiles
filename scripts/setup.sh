@@ -11,3 +11,5 @@ cp -r scripts/ $HOME/.config/scripts/
 cp -r nvim $HOME/.config/
 cp -r tmux $HOME/.config/
 
+# Scripts
+
