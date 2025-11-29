@@ -14,7 +14,7 @@ makepkg -si
 
 yay -S neovim-nightly
 
-sudo pacman -S \
+sudo pacman -Sy \
 	bspwm \
 	sxhkd \
 	firefox \
@@ -29,7 +29,7 @@ sudo pacman -S \
 	uv \
 	ripgrep \
 	lua-language-server \
-	python-language-server \
+	tree-sitter \
 	tree
 
 cd "$CURRENT_DIR"

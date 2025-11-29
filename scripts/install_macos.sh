@@ -13,5 +13,6 @@ brew install \
 	ripgrep \
 	lua-language-server \
 	pylsp \
+	tree-sitter \
 	tree
 brew install neovim --HEAD 
