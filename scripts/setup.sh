@@ -22,7 +22,6 @@ mkdir -p $HOME/.config/
 mkdir -p $HOME/git/
 
 cp -r nvim/ $HOME/.config/
-cp -r tmux/ $HOME/.config/
 cp -r btop/ $HOME/.config/
 cp -r yazi/ $HOME/.config/
 
@@ -42,6 +41,7 @@ if [ "$1" = "arch" ]; then
 elif [ "$1" = "macos" ]; then
 	./scripts/install_macos.sh
 	cp -r ghostty/ $HOME/.config/
+	cp -r tmux/ $HOME/.config/
 	cp .bashrc_macos $HOME/.bashrc
 	mv scripts/open-github-macos.sh scripts/open-github.sh
 fi

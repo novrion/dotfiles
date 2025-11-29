@@ -23,7 +23,6 @@ sudo pacman -Sy \
 	kitty \
 	btop \
 	yazi \
-	tmux \
 	gcc \
 	python \
 	uv \
