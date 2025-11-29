@@ -30,6 +30,6 @@ sudo pacman -S \
 	ripgrep \
 	lua-language-server \
 	python-language-server \
-	tree \
+	tree
 
 cd "$CURRENT_DIR"

@@ -12,6 +12,6 @@ brew install \
 	uv \
 	ripgrep \
 	lua-language-server \
-	python-language-server \
-	tree \
+	pylsp \
+	tree
 brew install --cask neovim-nightly
