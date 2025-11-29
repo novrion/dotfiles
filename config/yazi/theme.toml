@@ -1,7 +1,0 @@
-[flavor]
-dark = "catppuccin-mocha"
-
-[border]
-enabled = true
-style = "solid"
-full_border = true
