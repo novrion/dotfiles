@@ -43,6 +43,7 @@ if [ "$1" = "arch" ]; then
 
 	rm "$SCRIPTS/install_macos.sh"
 	mv "$SCRIPTS/open_github_arch.sh" "$SCRIPTS/open_github.sh"
+	rm "$SCRIPTS/open_github_macos.sh"
 
 ########### MacOS ##########
 elif [ "$1" = "macos" ]; then
@@ -53,6 +54,7 @@ elif [ "$1" = "macos" ]; then
 
 	rm "$SCRIPTS/install_arch.sh"
 	mv "$SCRIPTS/open_github_macos.sh" "$SCRIPTS/open_github.sh"
+	rm "$SCRIPTS/open_github_arch.sh"
 	rm "$SCRIPTS/quit_to_display_manager.sh"
 fi
 
