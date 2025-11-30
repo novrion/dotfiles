@@ -26,7 +26,7 @@ cp -r btop/ $HOME/.config/
 cp -r yazi/ $HOME/.config/
 
 cp -r scripts/ $HOME/
-SCRIPTS="$HOME/scripts"
+SCRIPTS="$HOME/scripts/"
 rm "$SCRIPTS/setup.sh"
 
 
@@ -58,6 +58,6 @@ fi
 
 
 
-./scripts/store-git-credentials.sh
+./scripts/store_git_credentials.sh
 
 echo "Done"
