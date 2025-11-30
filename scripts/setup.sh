@@ -25,6 +25,10 @@ cp -r nvim/ $HOME/.config/
 cp -r btop/ $HOME/.config/
 cp -r yazi/ $HOME/.config/
 
+cp -r scripts/ $HOME
+SCRIPTS="$HOME/scripts/"
+rm $SCRIPTS/setup.sh
+
 
 
 ########## Arch Linux ##########
@@ -35,8 +39,10 @@ if [ "$1" = "arch" ]; then
 	cp -r kitty/ $HOME/.config/
 	cp -r rofi/ $HOME/.config/
 	cp .bashrc_arch $HOME/.bashrc
-	mv scripts/open-github-arch.sh scripts/open-github.sh
 	cp .xinitrc $HOME/
+
+	rm $SCRIPTS/install_macos.sh
+	mv $SCRIPTS/open_github_arch.sh $SCRIPTS/open_github.sh
 
 ########### MacOS ##########
 elif [ "$1" = "macos" ]; then
@@ -44,13 +50,13 @@ elif [ "$1" = "macos" ]; then
 	cp -r ghostty/ $HOME/.config/
 	cp -r tmux/ $HOME/.config/
 	cp .bashrc_macos $HOME/.bashrc
-	mv scripts/open-github-macos.sh scripts/open-github.sh
+
+	rm $SCRIPTS/install_arch.sh
+	mv $SCRIPTS/open_github_macos.sh $SCRIPTS/open_github.sh
+	rm $SCRIPTS/quit_to_display_manager.sh
 fi
 
 
-
-cp -r scripts/ $HOME/
-rm $HOME/scripts/setup.sh
 
 ./scripts/store-git-credentials.sh
 

@@ -10,6 +10,10 @@ super + Return
 super + @space
 	rofi -show drun -show-icons
 
+# GitHub launcher
+super + b + g
+	$HOME/scripts/open_github.sh
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
