@@ -8,3 +8,9 @@ bash scripts/setup.sh arch
 #   - Homebrew
 bash scripts/setup.sh macos
 ```
+
+# TODO
+```
+Setup ly login manager
+lsp and formatting in neovim
+```

@@ -17,6 +17,7 @@ yay -S neovim-nightly
 sudo pacman -Sy \
 	bspwm \
 	sxhkd \
+	ly \
 	firefox \
 	mpv \
 	rofi \
