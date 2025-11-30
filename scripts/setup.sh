@@ -25,7 +25,7 @@ cp -r nvim/ $HOME/.config/
 cp -r btop/ $HOME/.config/
 cp -r yazi/ $HOME/.config/
 
-cp -r scripts/ $HOME/
+cp -r scripts "$HOME/"
 SCRIPTS="$HOME/scripts"
 rm "$SCRIPTS/setup.sh"
 
