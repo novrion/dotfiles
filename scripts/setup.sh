@@ -25,9 +25,9 @@ cp -r nvim/ $HOME/.config/
 cp -r btop/ $HOME/.config/
 cp -r yazi/ $HOME/.config/
 
-cp -r scripts/ $HOME
+cp -r scripts/ $HOME/
 SCRIPTS="$HOME/scripts"
-rm $SCRIPTS/setup.sh
+rm "$SCRIPTS/setup.sh"
 
 
 
@@ -41,8 +41,8 @@ if [ "$1" = "arch" ]; then
 	cp .bashrc_arch $HOME/.bashrc
 	cp .xinitrc $HOME/
 
-	rm $SCRIPTS/install_macos.sh
-	mv $SCRIPTS/open_github_arch.sh $SCRIPTS/open_github.sh
+	rm "$SCRIPTS/install_macos.sh"
+	mv "$SCRIPTS/open_github_arch.sh" "$SCRIPTS/open_github.sh"
 
 ########### MacOS ##########
 elif [ "$1" = "macos" ]; then
@@ -51,9 +51,9 @@ elif [ "$1" = "macos" ]; then
 	cp -r tmux/ $HOME/.config/
 	cp .bashrc_macos $HOME/.bashrc
 
-	rm $SCRIPTS/install_arch.sh
-	mv $SCRIPTS/open_github_macos.sh $SCRIPTS/open_github.sh
-	rm $SCRIPTS/quit_to_display_manager.sh
+	rm "$SCRIPTS/install_arch.sh"
+	mv "$SCRIPTS/open_github_macos.sh" "$SCRIPTS/open_github.sh"
+	rm "$SCRIPTS/quit_to_display_manager.sh"
 fi
 
 
