@@ -25,7 +25,7 @@ vim.keymap.set('n', '<leader>f', ':Pick files<CR>')
 vim.keymap.set('n', '<leader>h', ':Pick help<CR>')
 vim.keymap.set('n', '<leader>e', ':Oil<CR>')
 
-vim.lsp.enable({ "lua_ls", "clangd", "pylsp", "bashls" })
+vim.lsp.enable({ "lua_ls", "clangd", "pylsp", "bashls", "rust_analyzer" })
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
 vim.api.nvim_set_keymap('n', '<leader>do', '<cmd>lua vim.diagnostic.open_float()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>da', '<cmd>lua vim.diagnostic.setqflist()<CR>', { noremap = true, silent = true })

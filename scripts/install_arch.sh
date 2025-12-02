@@ -33,6 +33,7 @@ sudo pacman -Sy \
 	python-lsp-black \
 	python-pyflakes \
 	python-pycodestyle \
+	rust_analyzer \
 	tree-sitter \
 	tree
 
