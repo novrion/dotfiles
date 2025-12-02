@@ -12,6 +12,7 @@ brew install \
 	uv \
 	ripgrep \
 	lua-language-server \
+	rust-analyzer \
 	pylsp \
 	tree-sitter \
 	tree
