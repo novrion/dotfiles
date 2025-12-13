@@ -6,6 +6,7 @@ vim.opt.swapfile = false
 vim.opt.clipboard = "unnamedplus"
 vim.g.mapleader = " "
 
+-- may fix colors
 vim.opt.termguicolors = false
 
 vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>')
@@ -36,3 +37,8 @@ vim.api.nvim_set_keymap('n', '<leader>da', '<cmd>lua vim.diagnostic.setqflist()<
 
 vim.cmd("colorscheme tokyonight-night")
 vim.cmd(":hi statusline guibg=NONE")
+
+-- fix floating window borders
+vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
