@@ -5,6 +5,7 @@ brew install \
 	git \
 	btop \
 	yazi \
+	lazygit \
 	tmux \
 	ghostty \
 	gcc \
