@@ -1,12 +1,12 @@
 vim.opt.number = true
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 8
+vim.opt.shiftwidth = 8
 vim.opt.signcolumn = "yes"
 vim.opt.swapfile = false
 vim.opt.clipboard = "unnamedplus"
 vim.g.mapleader = " "
 
--- vim.opt.termguicolors = false
+vim.opt.termguicolors = false
 
 vim.keymap.set('n', '<leader>o', ':update<CR> :source<CR>')
 vim.keymap.set('n', '<leader>w', ':write<CR>')
