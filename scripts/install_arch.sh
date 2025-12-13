@@ -24,6 +24,7 @@ sudo pacman -Sy \
 	kitty \
 	btop \
 	yazi \
+	lazygit \
 	gcc \
 	python \
 	uv \
