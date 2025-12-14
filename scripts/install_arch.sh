@@ -28,6 +28,7 @@ sudo pacman -Sy \
 	gcc \
 	python \
 	uv \
+	npm \
 	ripgrep \
 	lua-language-server \
 	python-lsp-server \
@@ -37,5 +38,8 @@ sudo pacman -Sy \
 	rust_analyzer \
 	tree-sitter \
 	tree
+
+# html & css LSP + formatting
+npm i -g vscode-langservers-extracted
 
 cd "$CURRENT_DIR"

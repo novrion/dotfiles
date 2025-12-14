@@ -11,6 +11,7 @@ brew install \
 	gcc \
 	python \
 	uv \
+	npm \
 	ripgrep \
 	lua-language-server \
 	rust-analyzer \
@@ -18,3 +19,6 @@ brew install \
 	tree-sitter \
 	tree
 brew install neovim --HEAD 
+
+# html & css LSP + formatting
+npm i -g vscode-langservers-extracted
