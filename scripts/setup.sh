@@ -38,7 +38,7 @@ if [ "$1" = "arch" ]; then
 	cp -r sxhkd "$HOME/.config/"
 	cp -r kitty "$HOME/.config/"
 	cp -r rofi "$HOME/.config/"
-	cp .bashrc_arch $HOME/.bashrc
+	cp .bashrc $HOME/.bashrc
 	cp .xinitrc $HOME/
 
 	rm "$SCRIPTS/install_macos.sh"
@@ -50,7 +50,7 @@ elif [ "$1" = "macos" ]; then
 	./scripts/install_macos.sh
 	cp -r ghostty "$HOME/.config/"
 	cp -r tmux "$HOME/.config/"
-	cp .bashrc_macos $HOME/.bashrc
+	cp .zshrc "$HOME/.zshrc"
 
 	rm "$SCRIPTS/install_arch.sh"
 	mv "$SCRIPTS/open_github_macos.sh" "$SCRIPTS/open_github.sh"
