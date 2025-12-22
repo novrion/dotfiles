@@ -30,7 +30,7 @@ vim.keymap.set('n', '<leader>e', ':Oil<CR>')
 vim.keymap.set('n', '<leader>f', ':Yazi<CR>')
 vim.keymap.set('n', '<leader>lg', ':LazyGit<CR>')
 
-vim.lsp.enable({ "lua_ls", "clangd", "pylsp", "bashls", "rust_analyzer", "html", "cssls" })
+vim.lsp.enable({ "lua_ls", "clangd", "pylsp", "bashls", "rust_analyzer", "html", "cssls", "ts_ls" })
 vim.keymap.set('n', '<leader>lf', vim.lsp.buf.format)
 vim.api.nvim_set_keymap('n', '<leader>do', '<cmd>lua vim.diagnostic.open_float()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>da', '<cmd>lua vim.diagnostic.setqflist()<CR>', { noremap = true, silent = true })

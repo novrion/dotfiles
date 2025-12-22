@@ -40,6 +40,6 @@ sudo pacman -Sy \
 	tree
 
 # html & css LSP + formatting
-npm i -g vscode-langservers-extracted
+sudo npm i -g vscode-langservers-extracted typescript typescript-language-server
 
 cd "$CURRENT_DIR"
