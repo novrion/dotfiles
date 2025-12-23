@@ -21,6 +21,7 @@ vim.pack.add({
 	{ src = "https://github.com/mikavilpas/yazi.nvim" },
 	{ src = "https://github.com/kdheepak/lazygit.nvim" },
 	{ src = "https://github.com/folke/tokyonight.nvim" },
+	{ src = "https://github.com/novrion/awb.nvim"},
 })
 
 require "oil".setup()
@@ -42,3 +43,10 @@ vim.cmd(":hi statusline guibg=NONE")
 vim.api.nvim_set_hl(0, "FloatBorder", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
+require("awb").setup({
+	model = "gemini-2.5-flash",
+	api_key = "",
+	keymaps = {
+		ask = { "<leader>a", { "n", "v" }}
+	}
+})
